@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SubmissionAplikasiGithubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_blue_primary_300</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_primary_300</item>
+        <item name="colorOnPrimary">@color/dark_blue_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue_primary_500</item>
+        <item name="colorSecondaryVariant">@color/dark_blue_primary_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorAccent">@color/dark_blue_accent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="CustomTextInputLayout" parent="Widget.Material3.AutoCompleteTextView.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorSecondaryVariant</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:textColorHint">?attr/colorSecondary</item>
+        <item name="hintTextColor">?attr/colorSecondary</item>
+    </style>
+</resources>

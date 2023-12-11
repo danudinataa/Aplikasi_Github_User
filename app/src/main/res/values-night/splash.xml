@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp.MySplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">?attr/colorOnPrimary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_github_user_list_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.SubmissionAplikasiGithubUser</item>
+    </style>
+</resources>

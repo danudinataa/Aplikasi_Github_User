@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SubmissionAplikasiGithubUser" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_primary_300</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorSecondaryVariant">@color/blue_secondary_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+    </style>
+
+    <style name="Theme.SubmissionAplikasiGithubUser" parent="Base.Theme.SubmissionAplikasiGithubUser" />
+
+    <style name="CustomTextInputLayout" parent="Widget.Material3.AutoCompleteTextView.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorSecondary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:textColorHint">?attr/colorSecondary</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="CustomSwitchMaterial" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="trackTint">?attr/colorSecondaryVariant</item>
+
+    </style>
+
+
+
+</resources>

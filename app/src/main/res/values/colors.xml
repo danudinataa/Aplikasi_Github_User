@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--This is for light mode-->
+    <color name="blue_primary">#1363DF</color>
+    <color name="blue_primary_300">#6783e7</color>
+    <color name="blue_secondary">#47B5FF</color>
+    <color name="blue_secondary_500">#a8d5ff</color>
+    <color name="blue_accent">#001A7E</color>
+
+    <!--This is for night mode-->
+    <color name="dark_blue_primary">#030f17</color>
+    <color name="dark_blue_primary_300">#0f1e2a</color>
+    <color name="dark_blue_primary_200">#26333e</color>
+    <color name="dark_blue_primary_500">#8b9299</color>
+    <color name="dark_blue_accent">#224A64</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#868a8e</color>
+</resources>

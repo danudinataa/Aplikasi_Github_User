@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplikasi Github User</string>
+    <string name="nama_user_github">Nama User Github</string>
+    <string name="star_icon">Star Icon</string>
+    <string name="floating_button">Floating Button</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="search">Kamu mau cari siapa?</string>
+    <string name="search_button">Search Button</string>
+    <string name="github_logo">Github Logo</string>
+    <string name="favorite">Favorite</string>
+    <string name="menu_button">Menu Button</string>
+    <string name="theme_setting">Theme</string>
+    <string name="grid_setting">Grid</string>
+    <string name="favorite_button">Favorite Button</string>
+
+    <!-- Error Message-->
+    <string name="no_data">No data available!</string>
+    <string name="on_response_failed">OnResponse FAILED!</string>
+    <string name="on_failure_failed">OnFailure FAILED! :</string>
+</resources>
